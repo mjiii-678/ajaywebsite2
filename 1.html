@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #FF00B4;
+            color: #333;
+        }
+
+        /* Header Section */
+        .header {
+            background-color: #1e1e1e;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 32px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .header p {
+            margin: 10px 0 0;
+            color: #4db8ff;
+            font-weight: bold;
+        }
+
+        /* Main Container */
+        .container {
+            background:#05FF00;
+            width: 95%;
+            max-width: 850px;
+            margin: -30px auto 40px;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        /* Profile Image */
+        .profile-img {
+            display: block;
+            margin: 0 auto 20px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #0094FF;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            color: #1a73e8;
+            border-bottom: 2px solid #1a73e8;
+            padding-bottom: 8px;
+            margin-top: 30px;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Lists and Info */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .info-grid p {
+            margin: 5px 0;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 12px;
+            line-height: 1.6;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: #222;
+        }
+
+        .date {
+            color: #666;
+            font-size: 0.9em;
+            font-style: italic;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                width: 90%;
+            }
+            .header h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>AJAY BAYUGA</h1>
+    <p>ICT Student & Aspiring Web Developer</p>
+</div>
+
+<div class="container">
+    <img src="ajaypic.jpg" alt="Ajay Bayuga" class="profile-img">
+
+    <h2>Personal Information</h2>
+    <div class="info-grid">
+        <p><strong>Address:</strong> San Marcelino, Balungao, Pangasinan</p>
+        <p><strong>Phone:</strong> 09705778809</p>
+        <p><strong>Email:</strong> ajaybayuga@gmail.com</p>
+        <p><strong>Date of Birth:</strong> Nov 20, 2007</p>
+        <p><strong>Age:</strong> 18 Years Old</p>
+        <p><strong>Nationality:</strong> Filipino</p>
+        <p><strong>Religion:</strong> Roman Catholic</p>
+    </div>
+
+    <h2>Education</h2>
+    <ul>
+        <li>
+            <span class="job-title">Senior High School (ICT)</span><br>
+            Rosales National High School | <span class="date">2023 – 2025</span>
+        </li>
+        <li>
+            <span class="job-title">Junior High School</span><br>
+            Rosales National High School | <span class="date">2019 – 2023</span>
+        </li>
+        <li>
+            <span class="job-title">Elementary School</span><br>
+            San Marcelino Elementary School | <span class="date">2017 – 2018</span>
+        </li>
+    </ul>
+
+    <h2>Work Experience</h2>
+    <ul>
+        <li><strong>Assistant in Computer Troubleshooting</strong> - Maintenance and repair of hardware.</li>
+        <li><strong>Student Web Developer / Layout Artist</strong> - Creating visual designs and web structures.</li>
+        <li><strong>Data Encoder</strong> - Efficient management of file organization and data entry.</li>
+    </ul>
+
+    <h2>Seminars & Trainings</h2>
+    <ul>
+        <li>ICT Bootcamp: Web Development Basics (2024)</li>
+        <li>Networking Fundamental Seminar</li>
+        <li>Basic Computer Literacy Training</li>
+        <li>Web Developer Professional Seminar</li>
+    </ul>
+
+    <h2>References</h2>
+    <div class="info-grid">
+        <div>
+            <strong>Mr. Richard Fernandez</strong><br>
+            Owner, RF Print & Layout Services<br>
+            09226639901
+        </div>
+        <div>
+            <strong>Mrs. Maricar Gomez</strong><br>
+            Owner, Digital Prints<br>
+            09505552240
+        </div>
+        <div>
+            <strong>Mr. Carlo Mendoza</strong><br>
+            Owner, PC Repair<br>
+            09284419903
+        </div>
+        <div>
+            <strong>Mr. Daniel Cortez</strong><br>
+            Owner, DC PC Fix Services<br>
+            09358884412
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
